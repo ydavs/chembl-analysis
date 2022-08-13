@@ -1,0 +1,17 @@
+
+
+------------FILES---------------
+/data
+  inhibition.csv : Data in this data set is used for stating the bioactivity measure which are trained against teh corresponding attributes from compounds.csv to classfiy compounds into two categories active and inactive. A compound is called active if it's inhibition value is greater than 75% other it is classified as inactive. 
+
+
+  compounds.csv : Data in this data set is used for stating factors that affect towards bioactivities. The factors selected from the given set of attributes are Molecular Weight, AlogP, PSA, HBA, HBD, CX ApKa, CX BpKa & CX LogD which we shall use as out descriptors. 
+
+
+/notebook 
+
+  main.ipynb : This is the main notebook file. Please make sure while running you have compounds.csv and inhibtion.csv in same folder as main.ipynb. 
+
+
+----------RUN-------------------
+**Please make sure you have compounds.csv, inhibition.csv and main.ipynb in same folder before running.**
